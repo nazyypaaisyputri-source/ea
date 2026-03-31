@@ -14,6 +14,11 @@ void tampilMenu() {
     cout << "Pilih menu: ";
 }
 
+bool isPrima(int n) {
+    if (n < 2) return false;
+    return true;
+}
+
 // Prosedur untuk menerima input angka
 void inputUser() {
     cout << "Masukkan angka yang mau dicek: ";
